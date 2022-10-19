@@ -1,0 +1,38 @@
+img{
+    height: auto;
+	  width:500px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 1px dotted blue;
+}
+
+img:hover{
+	border: 3px solid orange;
+}
+
+.favion{
+    height: auto;
+	  width:50px;
+}
+.favion:hover{
+    height: auto;
+	  width:80px;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1em;
+}
+
+.current-page {
+    font-weight: bold;
+    border: 2px solid purple;
+}
