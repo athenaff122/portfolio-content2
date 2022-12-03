@@ -2,10 +2,20 @@
 <html lang="en">
 <!-- All of the meta data for the page belongs in the header tag -->
 <head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V1PYLMM4EM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V1PYLMM4EM');
+</script>
+
 	<meta charset="UTF-8">
-	<link rel="favion" href="images/favion.png">
+	<link rel="shortcut icon" href="images/favicon.ico" />
 	<title>My travel notebook of Spain</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-final.css">
   <link rel="stylesheet" href="css/html5reset.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -13,9 +23,9 @@
 </head>
 
 <body id="main">
-	<div class="skip"><a href="#main">skip to main content</a></div>
+	<div class="skip"><a href="#skip">skip to main content</a></div>
 	<header>
-		<nav class="nav1">
+		<nav>
 			<ul>
 				<li><a href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>About me</a></li>
 				<li class="current-page"><a href="gallery_page.html">Gallery Page</a></li>
@@ -27,8 +37,7 @@
 
 
 <main class='content'>
-
-	<h1>My travel notebook</h1>
+	<h1 id="skip">My travel notebook</h1>
 	<h2>Spain</h2>
 	<h3>
 		Passionate, sophisticated and devoted to living the good life, Spain is both a stereotype come to life and a country more diverse than you ever imagined.
@@ -43,6 +52,7 @@
 For all the talk of Spain's history, this is a country that lives very much in the present and there's a reason 'fiesta' is one of the best-known words in the Spanish language – life itself is a fiesta here and everyone seems to be invited. Perhaps you'll sense it along a crowded, post-midnight street when all the world has come out to play. Or maybe that moment will come when a flamenco performer touches something deep in your soul. Whenever it happens, you'll find yourself nodding in recognition: this is Spain.
 </h3>
 	<div class="gallery">
+
 	        <div class="cards">
 	          <div class="col">
 						<figure>
@@ -76,8 +86,10 @@ For all the talk of Spain's history, this is a country that lives very much in t
 	            <img src="images/palace.JPG" width="500" alt="Granada Palace">
 							<figcaption>Granada Palace</figcaption>
 							</figure>
-
 	          </div>
+
+
+
 						<div class="col">
 							<figure>
 	            <img src="images/dog.JPG" width="500" alt="Art museum">
